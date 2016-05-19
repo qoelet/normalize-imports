@@ -1,4 +1,12 @@
-# normalize-imports: Sort and align Haskell import statements
+# normalize-imports
+
+## Install
+
+```shell
+$ stack install
+```
+
+## Sort and align Haskell import statements
 
 Given a file
 
@@ -18,3 +26,5 @@ import           Foo
 import           Baz
 import           FooBar
 ```
+
+(better still, map it in your `.vimrc`, e.g. `map <Leader>f :%!normalize-import <CR>`
