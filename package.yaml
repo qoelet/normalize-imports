@@ -1,5 +1,14 @@
+name: normalize-imports
+version: 0.1.0
+synopsis: Sort and align Haskell import statements
+description: See README at <http://github.com/qoelet/normalize-imports#readme>
+maintainer: Kenny Shen <kenny@machinesung.com>
+license: BSD3
+github: qoelet/normalize-imports
+category: Development
+
 dependencies:
-  - base == 4.*
+  - base >= 4.7 && < 5
 
 ghc-options: -Wall
 
